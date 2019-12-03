@@ -51,12 +51,24 @@ main area style
     justify-content: space-evenly;
 }
 
+.row > div > div {
+    color: #eaeaea;
+    background-color: #7f7f7a;
+    opacity: 90%;
+}
+
+.row > div a:after {
+    /*background-image: url("");*/
+}
+
 .upper > div {
     border: 1px solid black;
     border-bottom-right-radius: 10%;
     width: 293px;
     height: 355px;
 }
+
+
 .lower > div{
     border: 1px solid black;
     border-top-right-radius: 10%;
