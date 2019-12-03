@@ -117,3 +117,22 @@ images
     background-image: url("../../images/mid_exam/250X110668568400.jpg");
 }
 
+.ils_map {
+    height: 168px;
+    width: 73px;
+    background-image: url("../../images/mid_exam/Untitled-3058756287.jpg");
+}
+
+.paz_logo {
+    height: 93px;
+    width: 142px;
+    float: right;
+    background-image: url("../../images/mid_exam/paz_logo.png");
+}
+
+.house_icon {
+    height: 15px;
+    width: 34px;
+    background-image: url("../../images/mid_exam/menu_home.png");
+}
+
