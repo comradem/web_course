@@ -41,7 +41,13 @@ footer {
 .ornament-style > li {
     flex-direction: row;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header div.flex {
+    justify-content: flex-end;
+    padding: 10px;
 }
 
 /*
