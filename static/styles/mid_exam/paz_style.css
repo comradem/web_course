@@ -61,7 +61,7 @@ main area style
     justify-content: space-evenly;
 }
 
-.row > div > div {
+.row.upper > div > div {
     color: #eaeaea;
     background-color: #7f7f7a;
     opacity: 90%;
@@ -80,12 +80,16 @@ main area style
 
 
 .lower > div{
+    height: 169px;
+    width: 292px;
+    background-image: url("../../images/mid_exam/cube_bg.png");
     border: 1px solid black;
     border-top-right-radius: 10%;
-    width: 293px;
-    height: 216px;
 }
 
+div[class*=" tocolor-"] {
+    color:red
+}
 
 /*
 images
@@ -100,5 +104,16 @@ images
 
 .dude {
     background-image: url("../../images/mid_exam/פזקר_-291_354410564000.jpg");
+}
+
+.promotion1 {
+    height: 110px;
+    width: 250px;
+    background-image: url("../../images/mid_exam/paz_250x110059890678.jpg");
+}
+.promotion2 {
+    height: 110px;
+    width: 250px;
+    background-image: url("../../images/mid_exam/250X110668568400.jpg");
 }
 
