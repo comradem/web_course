@@ -159,12 +159,15 @@ images
     height: 93px;
     width: 142px;
     float: right;
+    position: fixed;
+    top:50px;
     background-image: url("../../images/mid_exam/paz_logo.png");
 }
 
 .house_icon {
     height: 15px;
     width: 34px;
+    margin-right: 140px;
     background: url("../../images/mid_exam/menu_home_blue.png") no-repeat;
 }
 
@@ -181,12 +184,15 @@ contact form
     border: 1px solid black;
 }
 
-.contact-main-area{
-    flex-direction: row;
-    justify-content: space-evenly;
+.contact-menu {
+    width:8%
 }
+
 .contact-right {
+    width:50%;
     border: 1px solid black;
+}
+.overlay {
     height: 356px;
     width: 383px;
     background-image: url("../../images/mid_exam/contact_form_bg.png");
