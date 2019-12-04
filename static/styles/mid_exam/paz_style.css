@@ -61,7 +61,7 @@ main area style
     width: 960px;
     height: 1000px;
     margin:auto;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 
 .row {
@@ -82,7 +82,7 @@ main area style
 }
 
 .upper > div {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-bottom-right-radius: 10%;
     width: 293px;
     height: 355px;
@@ -93,7 +93,7 @@ main area style
     height: 169px;
     width: 292px;
     background-image: url("../../images/mid_exam/cube_bg.png");
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-top-right-radius: 10%;
 }
 
@@ -121,7 +121,7 @@ header drop down
 .dropdown:hover > .dropdown-content {
     display: block;
     position: absolute;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 200%;
     top: 50px;
     z-index: 1;
