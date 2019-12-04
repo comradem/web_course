@@ -61,7 +61,6 @@ main area style
     width: 960px;
     height: 1000px;
     margin:auto;
-    /*border: 1px solid black;*/
 }
 
 .row {
@@ -77,12 +76,7 @@ main area style
     opacity: 90%;
 }
 
-.row > div a:after {
-    /*background-image: url("");*/
-}
-
 .upper > div {
-    /*border: 1px solid black;*/
     border-bottom-right-radius: 10%;
     width: 293px;
     height: 355px;
@@ -93,7 +87,6 @@ main area style
     height: 169px;
     width: 292px;
     background-image: url("../../images/mid_exam/cube_bg.png");
-    /*border: 1px solid black;*/
     border-top-right-radius: 10%;
 }
 
@@ -175,3 +168,38 @@ images
     background: url("../../images/mid_exam/menu_home_blue.png") no-repeat;
 }
 
+/*
+contact form
+*/
+
+.contact-menu > ul > li {
+    list-style: none;
+    flex-direction: row;
+}
+
+.container > div {
+    border: 1px solid black;
+}
+
+.contact-main-area{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.contact-right {
+    border: 1px solid black;
+    height: 356px;
+    width: 383px;
+    background-image: url("../../images/mid_exam/contact_form_bg.png");
+}
+.contact-left {
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contact-img1, .contact-img2 {
+    width: 115px;
+    height: 100px;
+    background-image: url("../../images/mid_exam/hp_cube1_overlay.png");
+    border: 1px solid black;
+}
