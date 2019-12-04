@@ -94,19 +94,41 @@ main area style
     justify-content: space-between;
 }
 
+.row.upper > div > div > div.link > a{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.row.upper > div > div > div.link > a:hover{
+    color: #6fb3ff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+
+.row.upper > div > div > div.link {
+    text-align: left;
+}
+
 .row.upper > div > div {
     color: #eaeaea;
     background-color: #7f7f7a;
     opacity: 90%;
     border-bottom-right-radius: 10%;
-    position:inherit;
-    top: 0;
+    position:absolute;
+    top:195px;
+    margin: 10px;
+    text-align: right;
+    padding: 0 5px 0 5px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.upper > div {
+.row.upper > div {
     border-bottom-right-radius: 10%;
     width: 293px;
     height: 355px;
+    position: relative;
 }
 
 
