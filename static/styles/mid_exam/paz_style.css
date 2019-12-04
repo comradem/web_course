@@ -38,6 +38,16 @@ header a {
     font-size: 15px;
 }
 
+header a:hover {
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+header .dropdown-content > div:hover {
+    background-color: #d6d6d5;
+}
+
 footer {
     position: fixed;
     bottom: 0;
