@@ -26,6 +26,7 @@ header {
 }
 
 footer {
+    /*position: fixed;*/
     height: 38px;
     background-image: url("../../images/mid_exam/footer_bg.png");
 }
@@ -47,7 +48,7 @@ footer {
 
 header div.flex {
     justify-content: flex-end;
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 /*
@@ -96,6 +97,35 @@ main area style
 div[class*=" tocolor-"] {
     color:red
 }
+
+/*
+header drop down
+*/
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content > div {
+    border-bottom: 1px solid #eaeaea;
+}
+.dropdown:hover > .dropdown-content {
+    display: block;
+    position: absolute;
+    border: 1px solid black;
+    width: 200%;
+    top: 50px;
+    z-index: 1;
+    background-color: #909090;
+}
+
+
 
 /*
 images
