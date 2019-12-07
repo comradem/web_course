@@ -57,6 +57,11 @@ footer {
     background-image: url("../../images/mid_exam/footer_bg.png");
 }
 
+footer.ornament.flex {
+    justify-content: center;
+    color: #eaeaea;
+}
+
 .ornament {
     margin: auto;
     width:100%;
@@ -69,6 +74,7 @@ footer {
     flex-direction: row;
     list-style: none;
     padding: 0 10px 30px 10px;
+
 }
 
 header > div.flex {
