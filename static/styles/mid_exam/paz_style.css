@@ -146,30 +146,27 @@ div.search-bar > img#mg_glass {
 .lower > div{
     height: 216px;
     width: 292px;
-    background-image: url("../../images/mid_exam/cube_bg.png");
+    background-image: url("../../images/mid_exam/small_cube_bg.png");
     background-repeat: no-repeat;
     background-size: 120%, 100%;
     border-top-right-radius: 10%;
 }
 
-.row.lower > div > div > div > a{
+.row.lower > div > div > a{
     color: #656560;
     text-decoration: underline;
     font-size: 14px;
 }
 
-.lower div.flex {
+.lower > div.flex {
     flex-direction: column;
 }
 
-.lower div.flex > div {
+.lower > div.flex > div {
     text-align: left;
     padding: 10px;
     margin: auto;
 }
-/*div[class*=" tocolor-"] {*/
-/*    color:red*/
-/*}*/
 
 /*
 header drop down
