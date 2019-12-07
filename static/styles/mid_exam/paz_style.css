@@ -94,6 +94,17 @@ main area style
     justify-content: space-between;
 }
 
+div.search-bar {
+    position: relative;
+}
+
+div.search-bar > img#mg_glass {
+    position: absolute;
+    width:20px;
+    left: -6px;
+    top: 1px;
+}
+
 .row.upper > div > div > div.link > a{
     color: #fff;
     text-decoration: underline;
