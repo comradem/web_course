@@ -1,0 +1,21 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.jumbotron {
+    font-size: 1.5em;
+}
+
+div.card {
+    height: 100%;
+}
+
+div.card {
+    background-color: #d6d6d5;
+}
+
+div.card-footer, div.card-body{
+    background-color: #d6d6d5;
+    border: none;
+}

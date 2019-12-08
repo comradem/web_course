@@ -70,6 +70,10 @@ footer.ornament.flex {
 .flex {
     display: flex;
 }
+
+ul.ornament-style.flex {
+    padding-right: 19%;
+}
 .ornament-style > li {
     flex-direction: row;
     list-style: none;
