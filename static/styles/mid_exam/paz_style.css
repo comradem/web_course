@@ -301,7 +301,7 @@ contact form
 }
 
 .container > div {
-    /*border: 1px solid black;*/
+
 }
 
 .contact-menu {
@@ -319,10 +319,27 @@ contact form
 }
 .contact-left {
     text-align: right;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.contact-img1, .contact-img2 {
+.contact-img {
     width: 292px;
     height: 169px;
     background-image: url("../../images/mid_exam/cube_bg.png");
+    margin-top: 40px;
+}
+
+.contact-img > h2 {
+    color:#3F51B5;
+    padding: 10px 20px 0 0;
+    margin: auto;
+}
+
+.contact-img > div {
+    padding: 10px 20px 0 0;
+}
+
+hr {
+    border: 1px solid rgba(220, 220, 220, 0.5);
 }
