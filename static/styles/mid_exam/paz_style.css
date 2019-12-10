@@ -163,6 +163,7 @@ div.search-bar > img#mg_glass {
     background-repeat: no-repeat;
     background-size: 120%, 100%;
     border-top-right-radius: 10%;
+    border: 1px solid #e0e0e0;
 }
 
 .row.lower > div > div  a{
