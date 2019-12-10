@@ -11,9 +11,11 @@ body {
     text-align: right;
     direction: rtl;
     font-family: 'Arial (Hebrew)', Arial, sans-serif;
+    width:900px;
+    height:100%;
+    margin: auto;
 }
 main {
-    width: 80%;
     margin:auto;
     text-align: center;
     overflow: scroll;
@@ -25,7 +27,7 @@ header and footer style
 header {
     height: 106px;
     background-image: url("../../images/mid_exam/header_bg.png");
-    padding: 0 10% 0 10%;
+    /*padding: 0 10% 0 10%;*/
 }
 
 header a {
@@ -53,7 +55,7 @@ footer {
     position: fixed;
     bottom: 0;
     height: 38px;
-    padding: 0 10% 0 10%;
+    /*padding: 0 10% 0 10%;*/
     background-image: url("../../images/mid_exam/footer_bg.png");
 }
 
@@ -63,8 +65,8 @@ footer.ornament.flex {
 }
 
 .ornament {
-    margin: auto;
-    width:100%;
+    /*margin: auto;*/
+    /*width:100%;*/
 }
 
 .flex {
@@ -72,7 +74,7 @@ footer.ornament.flex {
 }
 
 ul.ornament-style.flex {
-    padding-right: 19%;
+    /*padding-right: 19%;*/
 }
 .ornament-style > li {
     flex-direction: row;
@@ -83,16 +85,13 @@ ul.ornament-style.flex {
 
 header > div.flex {
     justify-content: flex-end;
-    padding: 10px 0 10px 0;
+    padding: 20px 0 0 10px;
 }
 
 /*
 main area style
 */
 .container {
-    width: 960px;
-    /*height: 1000px;*/
-    margin:auto;
 }
 
 
@@ -262,6 +261,10 @@ images
     width: 34px;
     margin-right: 140px;
     background: url("../../images/mid_exam/menu_home_blue.png") no-repeat;
+}
+
+.fb_icon {
+    background: url("../../images/mid_exam/fb_icon.png") no-repeat;
 }
 
 /*
