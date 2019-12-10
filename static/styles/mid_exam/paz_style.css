@@ -64,9 +64,8 @@ footer.ornament.flex {
     color: #eaeaea;
 }
 
-.ornament {
-    /*margin: auto;*/
-    /*width:100%;*/
+header.ornament {
+    position: relative;
 }
 
 .flex {
@@ -81,6 +80,11 @@ ul.ornament-style.flex {
     /*list-style: none;*/
     padding: 0 10px 30px 10px;
 
+}
+
+.ornament-style > li > a {
+    text-decoration: none;
+    color: white;
 }
 
 li {
@@ -272,8 +276,6 @@ images
     width: 142px;
     float: right;
     position: absolute;
-    top:30px;
-    right:415px;
     background-image: url("../../images/mid_exam/paz_logo.png");
 }
 
