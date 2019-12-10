@@ -100,6 +100,7 @@ header > div.flex {
 main area style
 */
 .container {
+    justify-content: space-between;
 }
 
 
