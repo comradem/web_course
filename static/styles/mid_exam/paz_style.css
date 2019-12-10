@@ -330,16 +330,53 @@ contact form
     margin-top: 40px;
 }
 
-.contact-img > h2 {
+div > h2 {
     color:#3F51B5;
     padding: 10px 20px 0 0;
     margin: auto;
+    font-size: 15px;
+    text-align: right;
+}
+
+div > p {
+    text-align: right;
+    padding-right: 20px
+;
 }
 
 .contact-img > div {
-    padding: 10px 20px 0 0;
+    padding: 20px 20px 0 0;
+    font-size: 13px;
 }
 
 hr {
     border: 1px solid rgba(220, 220, 220, 0.5);
+}
+
+.form-row {
+
+}
+
+.col-25 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.col-75 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+}
+/* clearfix */
+.form-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#subject {
+    height: 70px;
 }
