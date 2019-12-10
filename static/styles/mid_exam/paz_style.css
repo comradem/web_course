@@ -171,9 +171,22 @@ div.search-bar > img#mg_glass {
     flex-direction: column;
 }
 
-.lower > div.flex > div {
+.lower > div.card {
+    position: relative;
+}
+
+.card-header {
+    padding: 15px;
+}
+
+.card-footer {
+    padding: 15px;
     text-align: left;
-    padding: 10px;
+}
+
+div[class*="promotion"] {
+    height: 110px;
+    width: 250px;
     margin: auto;
 }
 
@@ -231,13 +244,9 @@ images
 }
 
 .promotion1 {
-    height: 110px;
-    width: 250px;
     background-image: url("../../images/mid_exam/paz_250x110059890678.jpg");
 }
 .promotion2 {
-    height: 110px;
-    width: 250px;
     background-image: url("../../images/mid_exam/250X110668568400.jpg");
 }
 
@@ -252,7 +261,8 @@ images
     width: 142px;
     float: right;
     position: absolute;
-    top:50px;
+    top:30px;
+    right:415px;
     background-image: url("../../images/mid_exam/paz_logo.png");
 }
 
