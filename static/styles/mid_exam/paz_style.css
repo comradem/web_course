@@ -20,7 +20,6 @@ body {
     margin: auto;
 }
 main {
-    /*width:900px;*/
     margin:auto;
     text-align: center;
     overflow: scroll;
@@ -95,13 +94,9 @@ header.ornament {
     display: flex;
 }
 
-ul.ornament-style.flex {
-    /*padding-right: 19%;*/
-}
 .ornament-style > li {
     flex-direction: row;
-    /*list-style: none;*/
-    padding: 0 10px 30px 10px;
+    padding: 0 10px 30px 0;
     font-size: 14px;
 
 }
@@ -143,9 +138,10 @@ div.search-bar {
 
 div.search-bar > img#mg_glass {
     position: absolute;
+    display: block;
     width:20px;
     left: -6px;
-    top: 0;
+    top:-1px;
 }
 
 .row.upper > div > div > div.link > a{
@@ -312,7 +308,9 @@ images
     background: url("../../images/mid_exam/menu_home_blue.png") no-repeat;
 }
 
-.fb_icon {
+li.fb_icon {
+    display: block;
+    padding-right: 20px;
     background: url("../../images/mid_exam/fb_icon.png") no-repeat;
 }
 
@@ -321,7 +319,6 @@ contact form
 */
 
 .contact-menu > ul > li {
-    /*list-style: none;*/
     flex-direction: row;
 }
 
@@ -335,7 +332,6 @@ contact form
 
 .contact-right {
     width:50%;
-    /*border: 1px solid black;*/
 }
 .overlay {
     height: 356px;
