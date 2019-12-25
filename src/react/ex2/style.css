@@ -1,0 +1,41 @@
+.square{
+    width: 200px;
+    height: 200px;
+    color: gray;
+    border: 1px solid black;
+}
+
+.box1{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    background-color: #61dafb;
+}
+.box2{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    background-color: brown;
+    margin: 5%;
+}
+.box3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background-color: green;
+    margin: 5%;
+
+}
+.box4{
+    width: 90%;
+    height: 40%;
+    background-color: pink;
+    margin: 5%;
+}
+
+.flex {
+
+}
