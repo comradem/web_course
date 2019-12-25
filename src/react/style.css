@@ -1,0 +1,74 @@
+.container {
+    width: 90%;
+    margin: auto;
+    /*border: 2px solid black;*/
+}
+
+.flex {
+    display: flex;
+}
+
+
+.navbar {
+    flex-direction: row;
+    background-color: rgba(219, 219, 214, 0.54);
+    justify-content: left;
+    /*font-family: 'Rubik Mono One', sans-serif;*/
+}
+.navbar-item {
+    margin-left: 5%;
+}
+
+.icon_phone {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.main {
+    /*justify-content: center;*/
+    flex-direction: column;
+    background-color: #EE7C73;
+}
+
+.intro {
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.card {
+    flex-direction: column;
+
+}
+
+.card > div > img {
+    margin:auto;
+}
+
+.wrapper {
+    justify-content: space-around;
+}
+
+.featured_text {
+    text-decoration: underline;
+}
+
+
+
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+h1,h2 {
+    display: block;
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+}
+p {
+    display: block;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
