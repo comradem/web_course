@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;background-color: #d6d6d5;
+}
+
+.item {
+
+}
+
+.icon_wrapper {
+    display: inline;
+    position: relative;
+    margin: 2%;
+}
+
+.icon_wrapper > img {
+    width:50px;
+    position: inherit;
+}
+
+.icon_wrapper > span {
+    position: absolute;
+    left:60%;
+}
+
+
+.hidden {
+    display: none;
+}

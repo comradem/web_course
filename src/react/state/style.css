@@ -1,0 +1,51 @@
+.framed_square {
+    width: 50px;
+    height: 20px;
+    margin: 2%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.inner_square {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+ .green {
+     background-color: green;
+ }
+
+.red {
+    background-color: red;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.grayed-out {
+    background-color: #d6d6d5;
+    color : ghostwhite;
+}
+.button{
+    width: 50px;
+    height: 20px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #f7f7f7;
+}

@@ -54,18 +54,35 @@
     text-decoration: underline;
 }
 
+.decorator{
+    text-decoration: overline;
+    font-weight: bold;
+}
 
+.fading-border {
+    border: 2px solid white;
+    animation: fadeout 2s;
+}
+
+@keyframes fadeout{
+    from {border: 2px solid white;
+            display: block;}
+    to {border: 2px solid transparent;
+        display: none;}
+}
 
 img {
     display: block;
     width: 200px;
     height: 200px;
+    border-radius: 50%;
 }
 
 h1,h2 {
     display: block;
     font-family: 'Major Mono Display', monospace;
     text-align: center;
+    padding:5px;
 }
 p {
     display: block;

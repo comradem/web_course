@@ -4,12 +4,26 @@ class App extends React.Component {
             <div className="container">
                 {/*<h1>Factorial</h1>*/}
                 {/*<Factorial/>*/}
-                <h1>Numbers</h1>
-                <ShowNumbers/>
+                {/*<h1>Numbers</h1>*/}
+                {/*<ShowNumbers/>*/}
+                <h1>Win or Loose</h1>
+                <WinOrLoose/>
             </div>
         );
     }
 }
+
+class WinOrLoose extends React.Component {
+    render() {
+        let rand = Math.floor(Math.random()*10)+1;
+        return(
+            <div>
+                {rand > 5 ? <h1>You won with number: {rand}</h1> : <h3>You lost with number: {rand}</h3>}
+            </div>
+        );
+    }
+}
+
 
 class ShowNumbers extends React.Component {
     render() {

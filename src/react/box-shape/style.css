@@ -1,0 +1,25 @@
+.small {
+    width: 20px;
+    height: 20px;
+    background-color: #C71784;
+    margin: 10px;
+}
+
+.medium {
+    width: 50px;
+    height: 50px;
+    background-color: #C71784;
+    margin: 10px;
+}
+.large {
+    width: 120px;
+    height: 120px;
+    background-color: #C71784;
+    margin: 10px;
+}
+.x-large {
+    width: 340px;
+    height: 340px;
+    background-color: #C71784;
+    margin: 10px;
+}
