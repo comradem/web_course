@@ -1,7 +1,6 @@
 class ColorSelector extends React.Component {
     constructor(props) {
         super(props);
-        this.currentColor = '';
         this.state = {
             color: ''
         };
@@ -9,9 +8,7 @@ class ColorSelector extends React.Component {
 
 
     updateColor = (event) => {
-
         this.setState({color:event.target.value})
-
     };
 
 
@@ -21,9 +18,7 @@ class ColorSelector extends React.Component {
         let dresses = [<option value="green">green</option>, <option value="orange">orange</option>,
             <option value="gray">gray</option>];
         let arr = this.props.clothType === 'shirt' ? shirts : dresses;
-
         let style = {color: this.state.color};
-
 
         return (
             <div className='container'>
