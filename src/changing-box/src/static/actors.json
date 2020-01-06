@@ -1,0 +1,30 @@
+[
+  {
+    "fname" : "Margot",
+    "lname" : "Robbie",
+    "bdDate" : "1990-06-02",
+    "image" : "https://m.media-amazon.com/images/M/MV5BMTgxNDcwMzU2Nl5BMl5BanBnXkFtZTcwNDc4NzkzOQ@@._V1_SY999_SX750_AL_.jpg",
+    "imdbLink" : "https://www.imdb.com/name/nm3053338/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=69f65a40-5e3e-4799-af2f-b83bd010988e&pf_rd_r=GEMDDG9568S8CM3WSR42&pf_rd_s=center-4&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_gg_100_lk1"
+  },
+  {
+    "fname" : "Will",
+    "lname" : "Ferrel",
+    "bdDate" : "1967-07-16",
+    "image" : "https://m.media-amazon.com/images/M/MV5BMTMxMDIzMDEzNF5BMl5BanBnXkFtZTcwODcxMjE2Mg@@._V1_.jpg",
+    "imdbLink" : "https://www.imdb.com/name/nm0002071/?ref_=fn_al_nm_1"
+  },
+  {
+    "fname" : "Jonah",
+    "lname" : "Hill",
+    "bdDate" : "1983-012-20",
+    "image" : "https://m.media-amazon.com/images/M/MV5BMTUyNDU0NzAwNl5BMl5BanBnXkFtZTcwMzQxMzIzNw@@._V1_.jpg",
+    "imdbLink" : "https://www.imdb.com/name/nm1706767/?ref_=tt_ov_st_sm"
+  },
+  {
+    "fname" : "Ryan",
+    "lname" : "Reynolds",
+    "bdDate" : "1976-10-23",
+    "image" : "https://m.media-amazon.com/images/M/MV5BOTI3ODk1MTMyNV5BMl5BanBnXkFtZTcwNDEyNTE2Mg@@._V1_.jpg",
+    "imdbLink" : "https://www.imdb.com/name/nm0005351/?ref_=tt_ov_st_sm"
+  }
+]
