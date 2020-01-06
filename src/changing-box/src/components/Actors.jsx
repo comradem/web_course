@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Actor from "./Actor.jsx";
 import ActorObj from "../dom/ActorObj"
+import '../style/actors.css'
+import {InputGroup, FormControl, Container} from "react-bootstrap";
 
 class Actors extends Component {
     constructor(props) {
@@ -20,14 +22,22 @@ class Actors extends Component {
     };
     render() {
         return (
-            <div className="container">
-                <div>
-                    <input type="text" onChange={this.applyFilter}/>
+            <Container>
+                <div className="row">
+                    <InputGroup className="mb-3">
+                        <InputGroup.Prepend>
+                            <InputGroup.Text id="basic-addon1">Search: </InputGroup.Text>
+                        </InputGroup.Prepend>
+                        <FormControl
+                            onChange={this.applyFilter}
+                            aria-describedby="basic-addon1"
+                        />
+                    </InputGroup>
                 </div>
-                <div className="flex-row">
+                <div className="row">
                     {this.state.currentStaff}
                 </div>
-            </div>
+            </Container>
         );
     }
 }
