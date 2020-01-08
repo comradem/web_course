@@ -6,12 +6,14 @@ class ActorObj {
             this.bdDate = obj.bdDate;
             this.image = obj.image;
             this.imdbLink = obj.imdbLink;
+            this.id = obj.id
         }else {
             this.fname = '';
             this.lname = '';
             this.bdDate = '1990-01-01';
             this.image = '';
             this.imdbLink = '';
+            this.id = '12345';
         }
     }
     getAge = () => {
