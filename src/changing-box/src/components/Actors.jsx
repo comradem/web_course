@@ -9,20 +9,19 @@ class Actors extends Component {
         super(props);
         this.state = {
             initialStaff: this.props.staff.map((actor, index) => <Actor key={index} data={new ActorObj(actor)}/>),
-            currentStaff: this.props.staff.map((actor, index) => <Actor key={index} data={new ActorObj(actor)}/>)
+            filterText: ''
         }
     }
 
     applyFilter = (event) => {
-        let filtered = this.state.initialStaff.filter(item => {
-            return item.props.data.getFullName().toLowerCase().includes(event.target.value.toLowerCase())
-        });
-        this.setState({currentStaff: filtered});
-
-
+        this.setState({filterText: event.target.value});
     };
 
     render() {
+        let filtered = this.state.initialStaff.filter(item => {
+            return item.props.data.getFullName().toLowerCase().includes(this.state.filterText.toLowerCase())
+        });
+
         return (
             <Container>
                 <Row>
@@ -37,7 +36,7 @@ class Actors extends Component {
                     </InputGroup>
                 </Row>
                 <Row>
-                    {this.state.initialStaff}
+                    {filtered}
                 </Row>
             </Container>
         );
